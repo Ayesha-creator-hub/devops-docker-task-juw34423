@@ -29,13 +29,13 @@ inside a Docker container.
 ## Docker Commands
 ```bash
 # Build the image
-docker build -t <Ayesha masood>/devops-task:v1 .
+docker build -t <ayesha74>/devops-task:v1 .
 
 # Verify the image exists
 docker images
 
 # Run the container
-docker run -d -p 3000:3000 --name devops-task <Ayesha masood>/devops-task:v1
+docker run -d -p 3000:3000 --name devops-task < ayesha74>/devops-task:v1
 
 # Check the running container
 docker ps
@@ -50,25 +50,25 @@ docker inspect devops-task
 docker login
 
 # Tag the image (if not already tagged during build)
-docker tag devops-task < Ayesha masood >/devops-task:v1
+docker tag devops-task < ayesha74>/devops-task:v1
 
 # Push the image
-docker push < Ayesha masood >/devops-task:v1
+docker push < ayesha74>/devops-task:v1
 
 # Remove local container and image, then pull fresh from Docker Hub
 docker rm -f devops-task
-docker rmi < Ayesha masood >/devops-task:v1
-docker pull < Ayesha masood >/devops-task:v1
-docker run -d -p 3000:3000 --name devops-task < Ayesha masood >/devops-task:v1
+docker rmi < ayesha74>/devops-task:v1
+docker pull < ayesha74>/devops-task:v1
+docker run -d -p 3000:3000 --name devops-task < ayesha74>/devops-task:v1
 ```
 
 ## Docker Hub
-Docker Hub Repository: https://hub.docker.com/r/< Ayesha masood >/devops-task
+Docker Hub Repository: https://hub.docker.com/r/< ayesha74>/devops-task
 
 ## How to Run
 ```bash
-docker pull < Ayesha masood >/devops-task:v1
-docker run -d -p 3000:3000 --name devops-task < Ayesha masood >/devops-task:v1
+docker pull < ayesha74>/devops-task:v1
+docker run -d -p 3000:3000 --name devops-task < ayesha74>/devops-task:v1
 ```
 Then open http://localhost:3000 in your browser.
 
