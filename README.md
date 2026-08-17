@@ -74,10 +74,23 @@ Then open http://localhost:3000 in your browser.
 
 ## Screenshots
 1. GitHub repository
+
+
 2. Dockerfile
+
+
 3. Docker image (`docker images`)
+
+
 4. Running container (`docker ps`)
+
+
 5. Application in browser
+
+
 6. Docker Hub repository
+
+
 7. Docker pull and run from Docker Hub
+
 
